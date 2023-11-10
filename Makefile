@@ -34,6 +34,10 @@ TARGET_CFLAGS += \
 	-g
 
 TARGET_CFLAGS += \
+	-O3
+
+
+TARGET_CFLAGS += \
 	-DLIBFV3_FLOAT
 
 TARGET_CFLAGS += -Wno-deprecated

@@ -1,0 +1,106 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: clang build active file",
+			"command": "/usr/bin/clang",
+			"args": [
+				"-fcolor-diagnostics",
+				"-fansi-escape-codes",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: /usr/bin/clang"
+		},
+		{
+			"label": "build",
+			"osx": {
+				"command": "time make build"
+			},
+			"linux": {
+				"command": "time make build_buildroot"
+			},
+			"type": "shell",
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"revealProblems": "onProblem",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": false,
+				"clear": true,
+				"group": "groupA"
+			}
+		},
+		{
+			"label": "clean",
+			"command": "time make clean",
+			"type": "shell",
+			"problemMatcher": [],
+			// "group": {
+			// 	"kind": "build",
+			// 	"isDefault": true
+			// },
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"revealProblems": "onProblem",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": false,
+				"clear": true,
+				"group": "groupA"
+			}
+		},
+		{
+			"label": "picocom",
+			"command": "make -j picocom",
+			"type": "shell",
+			"problemMatcher": [],
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": false,
+				"clear": false,
+				"group": "groupA"
+			}
+		},
+		{
+			"label": "serial_update",
+			"linux": {
+				"command": "make execute_remote"
+			},
+			"osx": {
+				"command": "make execute"
+			}
+			"type": "shell",
+			"problemMatcher": [],
+			"presentation": {
+				"echo": true,
+				"reveal": "silent",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": false,
+				"clear": true,
+				"group": "groupA"
+			}
+		},
+	]
+}

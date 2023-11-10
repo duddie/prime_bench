@@ -1,0 +1,1027 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Fri Nov 10 09:17:19 2023
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 28)
+DIRS = src lib/vo_lib/src lib/minifb src/patch src/patch/sto src/ui src/fx/reverb src/fx/reverb/freeverb
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+LC_CTYPE = UTF-8
+# makefile (from `Makefile', line 17)
+TARGET = prime
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `scripts/rules/compile.inc', line 26)
+INCLUDES = $(foreach dir, $(SOURCEDIRS), $(addprefix -I, $(dir)))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/duddie/Projects/fun/prime_bench
+# makefile
+SHELL = /bin/sh
+# makefile (from `scripts/rules/compile.inc', line 56)
+RM = rm -rf 
+# makefile (from `scripts/rules/colours.inc', line 3)
+CO_RED = \033[0;31m
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","osLocale":"en-hk","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from `scripts/rules/compile.inc', line 3)
+PHONY = 
+# environment
+_ = /usr/bin/make
+# makefile (from `scripts/rules/tools.inc', line 5)
+WRITE_SECTION = flash
+# makefile (from `scripts/rules/os.mk', line 2)
+OS_DEFINED = YES
+# makefile (from `scripts/rules/remote_linux_commands.inc', line 1)
+MAKEFILE_LIST :=  Makefile scripts/rules/os.mk scripts/rules/compile.inc scripts/rules/toolchain.inc scripts/rules/colours.inc /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_common.d /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_dsp.d /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_fft_ct.d /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_json.d /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_math.d /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_math_complex.d /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_memory.d /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_string.d /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_string_ext.d /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_time.d scripts/rules/tools.inc scripts/rules/remote_linux_commands.inc
+# makefile (from `scripts/rules/compile.inc', line 32)
+SOURCES = $(foreach dir,$(SOURCEDIRS),$(wildcard $(dir)/*.c))
+# makefile (from `scripts/rules/compile.inc', line 11)
+BUILDDIR := /Users/duddie/Projects/fun/prime_bench/build
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# makefile (from `scripts/rules/compile.inc', line 38)
+OBJS_CC := 
+# environment
+VSCODE_CWD = /Users/duddie/Projects/fun/prime_bench
+# environment
+PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin
+# makefile (from `scripts/rules/colours.inc', line 7)
+CO_END = \033[0m
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# makefile (from `scripts/rules/compile.inc', line 23)
+TARGETDIRS = $(foreach dir, $(DIRS), $(addprefix $(BUILDDIR)/, $(dir)))
+# makefile (from `scripts/rules/compile.inc', line 14)
+TARGET_PATH = $(BUILDDIR)/$(TARGET)
+# makefile (from `Makefile', line 3)
+NATIVE_PLATFORM := TRUE
+# makefile (from `scripts/rules/compile.inc', line 91)
+TARGET_LDFLAGS = -g -lm -lstdc++ -lpthread -lportaudio -L/opt/homebrew/lib/  -framework AppKit -framework MetalKit -framework Metal -rdynamic
+# makefile (from `scripts/rules/compile.inc', line 29)
+VPATH = $(SOURCEDIRS)
+# environment
+LaunchInstanceID = 9FCA5D44-B5DD-40B5-B459-8B388AB34844
+# makefile (from `scripts/rules/compile.inc', line 74)
+HIDE = @
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `scripts/rules/os.mk', line 34)
+TARGET_CPU = aarch64
+# makefile (from `scripts/rules/compile.inc', line 68)
+PSEP = $(strip $(SEP))
+# environment
+LS_COLORS = di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.8J8DeWujNi/Listeners
+# makefile (from `scripts/rules/toolchain.inc', line 76)
+SIZE = size
+# automatic
+%F = $(notdir $%)
+# makefile (from `scripts/rules/os.mk', line 16)
+UNAME_S := Darwin
+# makefile (from `scripts/rules/toolchain.inc', line 72)
+OBJDUMP = objdump
+# makefile (from `scripts/rules/compile.inc', line 35)
+SOURCES_CC = $(foreach dir,$(SOURCEDIRS),$(wildcard $(dir)/*.cc))
+# makefile (from `scripts/rules/compile.inc', line 17)
+TARGET_BIN = $(TARGET_PATH).bin
+# makefile (from `scripts/rules/compile.inc', line 41)
+OBJS :=  /Users/duddie/Projects/fun/prime_bench/build/src/prime.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_common.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_dsp.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_fft_ct.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_json.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_math.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_math_complex.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_memory.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_string.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_string_ext.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_time.o
+# environment
+PWD = /Users/duddie/Projects/fun/prime_bench
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `Makefile', line 19)
+SYSTEM_LIB = lib/system
+# environment
+MANPATH = /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/opt/homebrew/share/man::
+# makefile (from `scripts/rules/colours.inc', line 4)
+CO_BLUE = \033[0;34m
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/duddie
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# makefile (from `scripts/rules/compile.inc', line 83)
+DEFINES = NATIVE_PLATFORM
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/duddie/Library/Application Support/Code/CachedData/2b35e1e6d88f1ce073683991d1eff5284a32690f
+# environment
+LOGNAME = duddie
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+ZSH = /Users/duddie/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `scripts/rules/compile.inc', line 58)
+MKDIR = mkdir -p
+# makefile (from `scripts/rules/compile.inc', line 2)
+VERBOSE = FALSE
+# environment
+XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+LC_TERMINAL = iTerm2
+# makefile (from `scripts/rules/compile.inc', line 57)
+RMDIR = rm -rf 
+# environment
+SHLVL = 3
+# makefile (from `scripts/rules/tools.inc', line 38)
+FLASH_COMMAND = $(MINICHLINK)/minichlink -w $< $(WRITE_SECTION) -b
+# makefile (from `scripts/rules/toolchain.inc', line 70)
+CC = clang
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = duddie
+# makefile
+.DEFAULT_GOAL := /Users/duddie/Projects/fun/prime_bench/build/prime.elf
+# makefile (from `scripts/rules/compile.inc', line 22)
+SOURCEDIRS = $(foreach dir, $(DIRS), $(addprefix $(SOURCEDIR)/, $(dir)))
+# default
+MAKECMDGOALS := all
+# environment
+ 
+TERM_SESSION_ID = w3t0p0:2B6A65A1-7E80-4A2D-8B44-CD0DDCB9EF2E
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `scripts/rules/compile.inc', line 94)
+define generateRules
+$(1)/%.o: %.c
+	$(call print_normal," CC ",$$(@F))
+	$(HIDE)$(CC) -c $$(INCLUDES) -o $$(subst /,$$(PSEP),$$@) $$(subst /,$$(PSEP),$$<) $(TARGET_CFLAGS) $(CFLAGS) -MMD -D_TAGNAME_=$$(basename $$(notdir $$<))
+$(1)/%.o: %.cc
+	$(call print_normal," CC ",$$(@F))
+	$(HIDE)$(CC) -c $$(INCLUDES) -o $$(subst /,$$(PSEP),$$@) $$(subst /,$$(PSEP),$$<) $(TARGET_CFLAGS) $(CFLAGS) -std=gnu++11 -MMD -D_TAGNAME_=$$(basename $$(notdir $$<))
+endef
+# makefile (from `scripts/rules/compile.inc', line 59)
+ERRIGNORE = 2>/dev/null
+# makefile (from `scripts/rules/os.mk', line 23)
+TARGET_OS = MacOS
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+TERM_PROGRAM = iTerm.app
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/3b/5x2r30yd63n0_q74kvs_3b580000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/duddie/Library/Application Support/Code/1.84-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 3.4.22
+# makefile (from `scripts/rules/os.mk', line 25)
+UNAME_P := arm
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.439234.439240.18D3AC14-B884-4CB5-BA39-3D42D8CD4EE1
+# environment
+LC_TERMINAL_VERSION = 3.4.22
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from `scripts/rules/compile.inc', line 60)
+SEP = /
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# makefile (from `scripts/rules/compile.inc', line 16)
+TARGET_ELF = $(TARGET_PATH).elf
+# automatic
++F = $(notdir $+)
+# environment
+ITERM_SESSION_ID = w3t0p0:2B6A65A1-7E80-4A2D-8B44-CD0DDCB9EF2E
+# makefile (from `scripts/rules/tools.inc', line 2)
+SERIAL_PORT = $(shell ls /dev/tty.usb*)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+COLORFGBG = 0;15
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# makefile (from `Makefile', line 2)
+PLATFORM := Darwin
+# default
+MAKEFILES := 
+# makefile (from `scripts/rules/compile.inc', line 88)
+TARGET_CFLAGS = -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror $(addprefix -D, $(DEFINES))
+# automatic
+<F = $(notdir $<)
+# environment
+ITERM_PROFILE = Default
+# makefile (from `scripts/rules/compile.inc', line 9)
+PROJDIR := /Users/duddie/Projects/fun/prime_bench
+# makefile (from `scripts/rules/toolchain.inc', line 71)
+CXX = g++
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+SECURITYSESSIONID = 18789
+# automatic
+^F = $(notdir $^)
+# makefile (from `scripts/rules/toolchain.inc', line 73)
+OBJCOPY = :
+# makefile (from `scripts/rules/tools.inc', line 4)
+MINICHLINK = tools/minichlink
+# makefile (from `scripts/rules/compile.inc', line 45)
+DEPS = $(OBJS:.o=.d)
+# default
+SUFFIXES := 
+# makefile (from `scripts/rules/colours.inc', line 9)
+print_normal = 	@echo "$(CO_GREEN)$(1)$(CO_END)$(2)"
+# environment
+MAKELEVEL := 0
+# makefile (from `scripts/rules/colours.inc', line 1)
+CO_GREEN = \033[0;32m
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# makefile (from `scripts/rules/compile.inc', line 10)
+SOURCEDIR = $(PROJDIR)
+# environment
+VSCODE_PID = 4576
+# makefile (from `scripts/rules/colours.inc', line 5)
+CO_BOLD = \e[1m
+# variable set hash-table stats:
+# Load=137/1024=13%, Rehash=0, Collisions=16/527=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# /Users/duddie/Projects/fun/prime_bench/src/patch: could not be stat'd.
+# /Users/duddie/Projects/fun/prime_bench/src/ui: could not be stat'd.
+# . (device 16777229, inode 537502): 11 files, no impossibilities.
+# /Users/duddie/Projects/fun/prime_bench/src (device 16777229, inode 537606): 4 files, no impossibilities.
+# /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src (device 16777229, inode 537780): 23 files, no impossibilities.
+# /Users/duddie/Projects/fun/prime_bench/src/fx/reverb: could not be stat'd.
+# /Users/duddie/Projects/fun/prime_bench/src/patch/sto: could not be stat'd.
+# /Users/duddie/Projects/fun/prime_bench/lib/minifb: could not be stat'd.
+# /Users/duddie/Projects/fun/prime_bench/src/fx/reverb/freeverb: could not be stat'd.
+
+# 38 files, no impossibilities in 9 directories.
+
+# Implicit Rules
+
+/Users/duddie/Projects/fun/prime_bench/build/src/%.o: %.c
+#  commands to execute (from `scripts/rules/compile.inc', line 122):
+	@echo "\033[0;32m" CC "\033[0m$(@F)"
+	@clang -c $(INCLUDES) -o $(subst /,$(PSEP),$@) $(subst /,$(PSEP),$<) -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror -DNATIVE_PLATFORM  -MMD -D_TAGNAME_=$(basename $(notdir $<))
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/src/%.o: %.cc
+#  commands to execute (from `scripts/rules/compile.inc', line 122):
+	@echo "\033[0;32m" CC "\033[0m$(@F)"
+	@clang -c $(INCLUDES) -o $(subst /,$(PSEP),$@) $(subst /,$(PSEP),$<) -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror -DNATIVE_PLATFORM  -std=gnu++11 -MMD -D_TAGNAME_=$(basename $(notdir $<))
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/%.o: %.c
+#  commands to execute (from `scripts/rules/compile.inc', line 122):
+	@echo "\033[0;32m" CC "\033[0m$(@F)"
+	@clang -c $(INCLUDES) -o $(subst /,$(PSEP),$@) $(subst /,$(PSEP),$<) -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror -DNATIVE_PLATFORM  -MMD -D_TAGNAME_=$(basename $(notdir $<))
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/%.o: %.cc
+#  commands to execute (from `scripts/rules/compile.inc', line 122):
+	@echo "\033[0;32m" CC "\033[0m$(@F)"
+	@clang -c $(INCLUDES) -o $(subst /,$(PSEP),$@) $(subst /,$(PSEP),$<) -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror -DNATIVE_PLATFORM  -std=gnu++11 -MMD -D_TAGNAME_=$(basename $(notdir $<))
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/lib/minifb/%.o: %.c
+#  commands to execute (from `scripts/rules/compile.inc', line 122):
+	@echo "\033[0;32m" CC "\033[0m$(@F)"
+	@clang -c $(INCLUDES) -o $(subst /,$(PSEP),$@) $(subst /,$(PSEP),$<) -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror -DNATIVE_PLATFORM  -MMD -D_TAGNAME_=$(basename $(notdir $<))
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/lib/minifb/%.o: %.cc
+#  commands to execute (from `scripts/rules/compile.inc', line 122):
+	@echo "\033[0;32m" CC "\033[0m$(@F)"
+	@clang -c $(INCLUDES) -o $(subst /,$(PSEP),$@) $(subst /,$(PSEP),$<) -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror -DNATIVE_PLATFORM  -std=gnu++11 -MMD -D_TAGNAME_=$(basename $(notdir $<))
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/src/patch/%.o: %.c
+#  commands to execute (from `scripts/rules/compile.inc', line 122):
+	@echo "\033[0;32m" CC "\033[0m$(@F)"
+	@clang -c $(INCLUDES) -o $(subst /,$(PSEP),$@) $(subst /,$(PSEP),$<) -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror -DNATIVE_PLATFORM  -MMD -D_TAGNAME_=$(basename $(notdir $<))
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/src/patch/%.o: %.cc
+#  commands to execute (from `scripts/rules/compile.inc', line 122):
+	@echo "\033[0;32m" CC "\033[0m$(@F)"
+	@clang -c $(INCLUDES) -o $(subst /,$(PSEP),$@) $(subst /,$(PSEP),$<) -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror -DNATIVE_PLATFORM  -std=gnu++11 -MMD -D_TAGNAME_=$(basename $(notdir $<))
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/src/patch/sto/%.o: %.c
+ 
+#  commands to execute (from `scripts/rules/compile.inc', line 122):
+	@echo "\033[0;32m" CC "\033[0m$(@F)"
+	@clang -c $(INCLUDES) -o $(subst /,$(PSEP),$@) $(subst /,$(PSEP),$<) -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror -DNATIVE_PLATFORM  -MMD -D_TAGNAME_=$(basename $(notdir $<))
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/src/patch/sto/%.o: %.cc
+#  commands to execute (from `scripts/rules/compile.inc', line 122):
+	@echo "\033[0;32m" CC "\033[0m$(@F)"
+	@clang -c $(INCLUDES) -o $(subst /,$(PSEP),$@) $(subst /,$(PSEP),$<) -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror -DNATIVE_PLATFORM  -std=gnu++11 -MMD -D_TAGNAME_=$(basename $(notdir $<))
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/src/ui/%.o: %.c
+#  commands to execute (from `scripts/rules/compile.inc', line 122):
+	@echo "\033[0;32m" CC "\033[0m$(@F)"
+	@clang -c $(INCLUDES) -o $(subst /,$(PSEP),$@) $(subst /,$(PSEP),$<) -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror -DNATIVE_PLATFORM  -MMD -D_TAGNAME_=$(basename $(notdir $<))
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/src/ui/%.o: %.cc
+#  commands to execute (from `scripts/rules/compile.inc', line 122):
+	@echo "\033[0;32m" CC "\033[0m$(@F)"
+	@clang -c $(INCLUDES) -o $(subst /,$(PSEP),$@) $(subst /,$(PSEP),$<) -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror -DNATIVE_PLATFORM  -std=gnu++11 -MMD -D_TAGNAME_=$(basename $(notdir $<))
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/src/fx/reverb/%.o: %.c
+#  commands to execute (from `scripts/rules/compile.inc', line 122):
+	@echo "\033[0;32m" CC "\033[0m$(@F)"
+	@clang -c $(INCLUDES) -o $(subst /,$(PSEP),$@) $(subst /,$(PSEP),$<) -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror -DNATIVE_PLATFORM  -MMD -D_TAGNAME_=$(basename $(notdir $<))
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/src/fx/reverb/%.o: %.cc
+#  commands to execute (from `scripts/rules/compile.inc', line 122):
+	@echo "\033[0;32m" CC "\033[0m$(@F)"
+	@clang -c $(INCLUDES) -o $(subst /,$(PSEP),$@) $(subst /,$(PSEP),$<) -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror -DNATIVE_PLATFORM  -std=gnu++11 -MMD -D_TAGNAME_=$(basename $(notdir $<))
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/src/fx/reverb/freeverb/%.o: %.c
+#  commands to execute (from `scripts/rules/compile.inc', line 122):
+	@echo "\033[0;32m" CC "\033[0m$(@F)"
+	@clang -c $(INCLUDES) -o $(subst /,$(PSEP),$@) $(subst /,$(PSEP),$<) -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror -DNATIVE_PLATFORM  -MMD -D_TAGNAME_=$(basename $(notdir $<))
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/src/fx/reverb/freeverb/%.o: %.cc
+#  commands to execute (from `scripts/rules/compile.inc', line 122):
+	@echo "\033[0;32m" CC "\033[0m$(@F)"
+	@clang -c $(INCLUDES) -o $(subst /,$(PSEP),$@) $(subst /,$(PSEP),$<) -D OSX -D OS_OSX -D MacOS -D ARM -I/opt/homebrew/include -Ires/ -g -O3 -DLIBFV3_FLOAT -Wno-deprecated -Wall -Wfatal-errors -Werror -DNATIVE_PLATFORM  -std=gnu++11 -MMD -D_TAGNAME_=$(basename $(notdir $<))
+	
+
+# 16 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_string_ext.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 09:03:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_memory.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 09:03:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_time.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 09:03:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+gdbserver:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `scripts/rules/tools.inc', line 21):
+	-$(MINICHLINK)/minichlink -baG
+	
+
+# Not a target:
+scripts/rules/colours.inc:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 08:59:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_math.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+closechlink:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `scripts/rules/tools.inc', line 12):
+	-killall minichlink
+	
+
+all: build
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+build_buildroot:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `scripts/rules/remote_linux_commands.inc', line 10):
+	$(call print_normal,"Starting Buildroot Build")
+	@cd ~/mnt/tdaw/bb5 && time ./build.sh buildroot-make:tdaw-reconfigure
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_string.o: /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_string.c /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_string.h /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_common.h /Users/duddie/Projects/fun/prime_bench/src/app_config.h /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_memory.h /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_logger.h /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_time.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_string.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/duddie/Projects/fun/prime_bench/build/prime.elf: /Users/duddie/Projects/fun/prime_bench/build/src/prime.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_common.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_dsp.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_fft_ct.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_json.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_math.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_math_complex.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_memory.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_string.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_string_ext.o /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_time.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `scripts/rules/compile.inc', line 109):
+	$(call print_normal," LD ",$(@F))
+	$(HIDE) $(CC) -o $@  $^ $(CFLAGS) $(TARGET_CFLAGS) $(TARGET_LDFLAGS)
+	
+
+.PHONY: all clean build directories os clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+ 
+#  File has not been updated.
+
+# Not a target:
+scripts/rules/remote_linux_commands.inc:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 08:59:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+monitor:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `scripts/rules/tools.inc', line 18):
+	$(MINICHLINK)/minichlink -T
+	
+
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_math.o: /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_math.c /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_math.h /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_common.h /Users/duddie/Projects/fun/prime_bench/src/app_config.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_common.o: /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_common.c /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_common.h /Users/duddie/Projects/fun/prime_bench/src/app_config.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_string_ext.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_memory.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_math.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_string.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_time.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `scripts/rules/compile.inc', line 156):
+	# @echo CURDIR $(CURDIR)
+	# @echo SOURCEDIRS: $(SOURCEDIRS)
+	
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 09:03:20
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_json.o: /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_json.c /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_json.h /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_common.h /Users/duddie/Projects/fun/prime_bench/src/app_config.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_string_ext.o: /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_string_ext.c /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_string.h /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_common.h /Users/duddie/Projects/fun/prime_bench/src/app_config.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_memory.o: /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_memory.c /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_memory.h /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_common.h /Users/duddie/Projects/fun/prime_bench/src/app_config.h /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_logger.h /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_time.h /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_math.h /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_string.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_json.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build: build_pre directories /Users/duddie/Projects/fun/prime_bench/build/prime.bin
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_time.o: /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_time.c /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_time.h /Users/duddie/Projects/fun/prime_bench/src/app_config.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_memory.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/build/src/prime.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_fft_ct.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 09:03:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_math_complex.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 09:03:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_time.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_fft.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+execute: build
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `scripts/rules/compile.inc', line 160):
+	-killall $(TARGET).elf
+	$(TARGET_ELF) $(RUN_PARAMS)
+	
+
+build_pre:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build_pre
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  commands to execute (from `scripts/rules/compile.inc', line 129):
+	$(call print_normal,"Staring build")
+	
+
+# Not a target:
+scripts/rules/tools.inc:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 08:59:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+fast_flash: build cv_flash
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ 
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_dsp.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 09:03:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_fft_ct.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_math_complex.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cv_clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `scripts/rules/compile.inc', line 141):
+	rm -rf $(TARGET).elf $(TARGET).bin $(TARGET).hex $(TARGET).lst $(TARGET).map $(TARGET).hex || true
+	
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_common.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/build/src/prime.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_fft_ct.o: /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_fft_ct.c /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_fft.h /Users/duddie/Projects/fun/prime_bench/src/app_config.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_math_complex.o: /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_math_complex.c /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_math_complex.h /Users/duddie/Projects/fun/prime_bench/src/app_config.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clangd:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `scripts/rules/tools.inc', line 29):
+	make clean
+	bear -- make build
+	@echo "CompileFlags:" > .clangd
+	@echo "  Remove: [-march=*, -mabi=*]" >> .clangd
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `scripts/rules/compile.inc', line 136):
+	$(HIDE)$(RM) $(BUILDDIR) $(ERRIGNORE)
+	@echo Cleaning done ! 
+	
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_math_complex.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+execute_remote:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `scripts/rules/remote_linux_commands.inc', line 4):
+	$(call print_normal,"COPYING TDAW")
+	@scp ~/mnt/tdaw/bb5/buildroot/output/rockchip_rk3566/target/usr/bin/tdaw.elf tdawl:/root/
+	$(call print_normal,"RESTARTING REMOTE")
+	ssh tdawl killall tdaw
+	
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_dsp.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+scripts/rules/compile.inc:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 08:59:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_string.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 09:03:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_common.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/duddie/Projects/fun/prime_bench/build/prime.bin: /Users/duddie/Projects/fun/prime_bench/build/prime.elf
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `scripts/rules/compile.inc', line 145):
+	$(call print_normal,"Making binaries")
+	$(HIDE)$(SIZE) $^
+	$(HIDE)$(OBJDUMP) $(OBJDUMP_FLAGS) -D -S $^ > $(TARGET_PATH)_gen.lst
+	$(HIDE)$(OBJDUMP) -t $^ > $(TARGET_PATH).map
+	$(HIDE)$(OBJCOPY) -O binary $< $(TARGET_PATH).bin
+	$(HIDE)$(OBJCOPY) -O ihex $< $(TARGET_PATH).hex
+	
+
+picocom:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `scripts/rules/tools.inc', line 24):
+	picocom ${SERIAL_PORT} -b 115200 --imap lfcrlf
+	
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_json.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_dsp.o: /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_dsp.c /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_dsp.h /Users/duddie/Projects/fun/prime_bench/src/app_config.h /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_common.h /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_math.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+terminal: monitor
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/src/app_config.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_logger.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_math.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 09:03:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/vo_dsp.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_common.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 09:03:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+directories:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `scripts/rules/compile.inc', line 125):
+	$(call print_normal,"Making directories")
+	$(HIDE)$(MKDIR) $(subst /,$(PSEP),$(TARGETDIRS)) $(ERRIGNORE)
+	
+
+# Not a target:
+scripts/rules/os.mk:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 08:59:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+scripts/rules/toolchain.inc:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 08:59:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+ 
+cv_flash: /Users/duddie/Projects/fun/prime_bench/build/prime.bin
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `scripts/rules/tools.inc', line 41):
+	make CH32V003FUN=$(CURDIR)/$(CH32V003FUN) -C $(MINICHLINK) all
+	$(FLASH_COMMAND)
+	
+
+os:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 80):
+	@echo OS:      $(PLATFORM)
+	@echo CFLAGS:  $(CFLAGS)
+	
+
+clangd_clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `scripts/rules/tools.inc', line 35):
+	rm -f compile_commands.json .clangd
+	rm -rf .cache
+	
+
+# Not a target:
+/Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_json.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 09:03:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=75/1024=7%, Rehash=0, Collisions=19/181=10%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# General (`VPATH' variable) search path:
+# /Users/duddie/Projects/fun/prime_bench/src:/Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src
+
+# # of strings in strcache: 18
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3145 / max = 3145 / min = 3145 / avg = 3145
+
+# Finished Make data base on Fri Nov 10 09:17:19 2023
+
+ 
