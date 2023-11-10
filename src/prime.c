@@ -62,9 +62,12 @@ void *loop_prime(void *data) {
 
 int main(int argc, char **argv) {
   // LOGI("%d", argc);
-  if (argc > 1)
+  int usage = 0;
+  if (argc > 1) {
+    if(argv[1][0] == '-')
+      usage = 1;
     num_threads = atoi(argv[1]);
-  else
+  } else
     num_threads = D_NUM_THREADS;
 
   if (argc > 2)
@@ -76,10 +79,14 @@ int main(int argc, char **argv) {
     num_primes = atoi(argv[3]);
   else
     num_primes = D_NUM_PRIMES;
+  if (usage)
+  {
+    printf("%s [threads] [loops] [num]\n", argv[0]);
+    return 0;
+  }
 
-  LOGI("PRIMER executing with Threads: %d Loops: %d Primes: %d", num_threads, num_loops, num_primes);
-
-  time_res = malloc(sizeof(float) * num_threads * num_loops);
+  printf("primer: executing with Threads: %d Loops: %d Primes: %d\n", num_threads, num_loops, num_primes);
+  time_res    = malloc(sizeof(float) * num_threads * num_loops);
 
   dodgy_mutex = 0;
   vo_thread vt[num_threads];
@@ -98,13 +105,13 @@ int main(int argc, char **argv) {
     sleep(1);
   }
   float max_time;
-  max_time = 0.f; 
-  for(i = 0 ; i < num_threads * num_loops ; i++) {
+  max_time = 0.f;
+  for (i = 0; i < num_threads * num_loops; i++) {
     if (time_res[i] > max_time)
       max_time = time_res[i];
     // printf("%.3f ", time_res[i]);
   }
-  LOGI("Fastest loop: %.3fs", max_time);
+  printf("Fastest loop: %.3fs\n", max_time);
   // printf("Prime numbers from 2 to %d are ...\n", N - 1);
   // for (i = 2; i < N; i++)
   // {
