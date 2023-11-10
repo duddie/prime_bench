@@ -64,7 +64,7 @@ int main(int argc, char **argv) {
   // LOGI("%d", argc);
   int usage = 0;
   if (argc > 1) {
-    if(argv[1][0] == '-')
+    if (argv[1][0] == '-')
       usage = 1;
     num_threads = atoi(argv[1]);
   } else
@@ -79,8 +79,7 @@ int main(int argc, char **argv) {
     num_primes = atoi(argv[3]);
   else
     num_primes = D_NUM_PRIMES;
-  if (usage)
-  {
+  if (usage) {
     printf("%s [threads] [loops] [num]\n", argv[0]);
     return 0;
   }
@@ -111,7 +110,7 @@ int main(int argc, char **argv) {
       max_time = time_res[i];
     // printf("%.3f ", time_res[i]);
   }
-  printf("Fastest loop: %.3fs\n", max_time);
+  printf("Fastest loop at %d threads: %.3fs\n", num_threads, max_time);
   // printf("Prime numbers from 2 to %d are ...\n", N - 1);
   // for (i = 2; i < N; i++)
   // {
