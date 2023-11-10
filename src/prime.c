@@ -63,9 +63,20 @@ void *loop_prime(void *data) {
 int main(int argc, char **argv) {
   // LOGI("%d", argc);
   int usage = 0;
+  int info = 0;
+
   if (argc > 1) {
-    if (argv[1][0] == '-')
-      usage = 1;
+    if (argv[1][0] == '-') {
+      switch (argv[1][1]) {
+      case 'i':
+        info = 1;
+        break;
+      case 'h':
+      default:
+        usage = 1;
+        break;
+      }
+    }
     num_threads = atoi(argv[1]);
   } else
     num_threads = D_NUM_THREADS;
@@ -84,7 +95,9 @@ int main(int argc, char **argv) {
     return 0;
   }
 
-  printf("primer: executing with Threads: %d Loops: %d Primes: %d\n", num_threads, num_loops, num_primes);
+  if (info)
+    printf("primer: executing with Threads: %d Loops: %d Primes: %d\n", num_threads, num_loops, num_primes);
+
   time_res    = malloc(sizeof(float) * num_threads * num_loops);
 
   dodgy_mutex = 0;
