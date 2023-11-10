@@ -1,0 +1,313 @@
+
+/Users/duddie/Projects/fun/prime_bench/build/prime.elf:	file format mach-o arm64
+
+SYMBOL TABLE:
+0000000100001fdc l     F __TEXT,__text _vo_maxf
+0000000100002834 l     F __TEXT,__text _vo_memcpy
+00000001000028a4 l     F __TEXT,__text _vo_strlen
+00000001000028f4 l     F __TEXT,__text _vo_memset
+0000000100002a40 l     F __TEXT,__text _vo_strlen_ex
+0000000100002cb8 l     F __TEXT,__text _vo_strlen
+0000000100003324 l     F __TEXT,__text _vo_strlen_ex
+0000000100008000 l     O __DATA,__data _null_str
+0000000000000000      d  *UND* 
+0000000000000000      d  *UND* /Users/duddie/Projects/fun/prime_bench/src/
+0000000000000000      d  *UND* prime.c
+00000000654d79c6      d  *UND* /Users/duddie/Projects/fun/prime_bench/build/src/prime.o
+0000000100001c9c      d  *UND* 
+0000000100001c9c      d  *UND* _main
+00000000000001c4      d  *UND* 
+0000000100001c9c      d  *UND* 
+0000000000000000      d  *UND* _a
+0000000000000000      d  *UND* 
+0000000000000000      d  *UND* /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/
+0000000000000000      d  *UND* vo_dsp.c
+00000000654d79c6      d  *UND* /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_dsp.o
+0000000100001e60      d  *UND* 
+0000000100001e60      d  *UND* _note_to_freq
+0000000000000078      d  *UND* 
+0000000100001e60      d  *UND* 
+0000000100001ed8      d  *UND* 
+0000000100001ed8      d  *UND* _decibels_to_gain
+0000000000000074      d  *UND* 
+0000000100001ed8      d  *UND* 
+0000000100001f4c      d  *UND* 
+0000000100001f4c      d  *UND* _gain_to_decibels
+0000000000000090      d  *UND* 
+0000000100001f4c      d  *UND* 
+0000000100001fdc      d  *UND* 
+0000000100001fdc      d  *UND* _vo_maxf
+0000000000000048      d  *UND* 
+0000000100001fdc      d  *UND* 
+0000000100002024      d  *UND* 
+0000000100002024      d  *UND* _vo_adj_quadratic
+000000000000002c      d  *UND* 
+0000000100002024      d  *UND* 
+0000000100002050      d  *UND* 
+0000000100002050      d  *UND* _vo_adj_square
+0000000000000024      d  *UND* 
+0000000100002050      d  *UND* 
+0000000100002074      d  *UND* 
+0000000100002074      d  *UND* _get_rms_level
+00000000000000a4      d  *UND* 
+0000000100002074      d  *UND* 
+0000000100002118      d  *UND* 
+0000000100002118      d  *UND* _vo_float_to_fraction
+00000000000001c0      d  *UND* 
+0000000100002118      d  *UND* 
+0000000000000000      d  *UND* 
+0000000000000000      d  *UND* /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/
+0000000000000000      d  *UND* vo_math.c
+00000000654d79c6      d  *UND* /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_math.o
+00000001000022d8      d  *UND* 
+00000001000022d8      d  *UND* _vo_pow2f
+0000000000000100      d  *UND* 
+00000001000022d8      d  *UND* 
+00000001000023d8      d  *UND* 
+00000001000023d8      d  *UND* _vo_powf
+0000000000000054      d  *UND* 
+00000001000023d8      d  *UND* 
+000000010000242c      d  *UND* 
+000000010000242c      d  *UND* _vo_pow10f
+0000000000000034      d  *UND* 
+000000010000242c      d  *UND* 
+0000000100002460      d  *UND* 
+0000000100002460      d  *UND* _vo_expf
+00000000000000a0      d  *UND* 
+0000000100002460      d  *UND* 
+0000000100002500      d  *UND* 
+0000000100002500      d  *UND* _vo_log2f
+0000000000000094      d  *UND* 
+0000000100002500      d  *UND* 
+0000000100002594      d  *UND* 
+0000000100002594      d  *UND* _vo_cos
+0000000000000088      d  *UND* 
+0000000100002594      d  *UND* 
+000000010000261c      d  *UND* 
+000000010000261c      d  *UND* _vo_sin
+0000000000000080      d  *UND* 
+000000010000261c      d  *UND* 
+000000010000269c      d  *UND* 
+000000010000269c      d  *UND* _vo_tanf
+00000000000000a8      d  *UND* 
+000000010000269c      d  *UND* 
+0000000100002744      d  *UND* 
+0000000100002744      d  *UND* _vo_tanh_c3
+00000000000000f0      d  *UND* 
+0000000100002744      d  *UND* 
+0000000000000000      d  *UND* 
+0000000000000000      d  *UND* /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/
+0000000000000000      d  *UND* vo_memory.c
+00000000654d79c7      d  *UND* /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_memory.o
+0000000100002834      d  *UND* 
+0000000100002834      d  *UND* _vo_memcpy
+0000000000000070      d  *UND* 
+0000000100002834      d  *UND* 
+00000001000028a4      d  *UND* 
+00000001000028a4      d  *UND* _vo_strlen
+0000000000000050      d  *UND* 
+00000001000028a4      d  *UND* 
+00000001000028f4      d  *UND* 
+00000001000028f4      d  *UND* _vo_memset
+0000000000000058      d  *UND* 
+00000001000028f4      d  *UND* 
+000000010000294c      d  *UND* 
+000000010000294c      d  *UND* _vo_memcpy_32
+0000000000000084      d  *UND* 
+000000010000294c      d  *UND* 
+00000001000029d0      d  *UND* 
+00000001000029d0      d  *UND* _vo_memcpy_32_r
+0000000000000070      d  *UND* 
+00000001000029d0      d  *UND* 
+0000000100002a40      d  *UND* 
+0000000100002a40      d  *UND* _vo_strlen_ex
+0000000000000030      d  *UND* 
+0000000100002a40      d  *UND* 
+0000000100002a70      d  *UND* 
+0000000100002a70      d  *UND* _vo_malloc
+000000000000005c      d  *UND* 
+0000000100002a70      d  *UND* 
+0000000100002acc      d  *UND* 
+0000000100002acc      d  *UND* _vo_realloc
+0000000000000060      d  *UND* 
+0000000100002acc      d  *UND* 
+0000000100002b2c      d  *UND* 
+0000000100002b2c      d  *UND* _vo_get_malloc_size
+0000000000000028      d  *UND* 
+0000000100002b2c      d  *UND* 
+0000000100002b54      d  *UND* 
+0000000100002b54      d  *UND* _vo_free
+000000000000005c      d  *UND* 
+0000000100002b54      d  *UND* 
+0000000000000000      d  *UND* 
+0000000000000000      d  *UND* /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/
+0000000000000000      d  *UND* vo_string.c
+00000000654d79c7      d  *UND* /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_string.o
+0000000100002bb0      d  *UND* 
+0000000100002bb0      d  *UND* _vo_strcpy
+0000000000000050      d  *UND* 
+0000000100002bb0      d  *UND* 
+0000000100002c00      d  *UND* 
+0000000100002c00      d  *UND* _vo_reverse
+00000000000000b8      d  *UND* 
+0000000100002c00      d  *UND* 
+0000000100002cb8      d  *UND* 
+0000000100002cb8      d  *UND* _vo_strlen
+0000000000000050      d  *UND* 
+0000000100002cb8      d  *UND* 
+0000000100002d08      d  *UND* 
+0000000100002d08      d  *UND* _vo_itoh
+000000000000013c      d  *UND* 
+0000000100002d08      d  *UND* 
+0000000100002e44      d  *UND* 
+0000000100002e44      d  *UND* _vo_itoa
+00000000000001b0      d  *UND* 
+0000000100002e44      d  *UND* 
+0000000100002ff4      d  *UND* 
+0000000100002ff4      d  *UND* _vo_ftoa
+00000000000001bc      d  *UND* 
+0000000100002ff4      d  *UND* 
+00000001000031b0      d  *UND* 
+00000001000031b0      d  *UND* _vo_strchr
+0000000000000070      d  *UND* 
+00000001000031b0      d  *UND* 
+0000000100003220      d  *UND* 
+0000000100003220      d  *UND* _vo_strrchr
+00000000000000a8      d  *UND* 
+0000000100003220      d  *UND* 
+00000001000032c8      d  *UND* 
+00000001000032c8      d  *UND* _vo_strcpy_realloc
+000000000000005c      d  *UND* 
+00000001000032c8      d  *UND* 
+0000000100003324      d  *UND* 
+0000000100003324      d  *UND* _vo_strlen_ex
+0000000000000030      d  *UND* 
+0000000100003324      d  *UND* 
+0000000100003354      d  *UND* 
+0000000100003354      d  *UND* _vo_str_has_ext
+00000000000000bc      d  *UND* 
+0000000100003354      d  *UND* 
+0000000100003410      d  *UND* 
+0000000100003410      d  *UND* _vo_strcmp
+00000000000000ac      d  *UND* 
+0000000100003410      d  *UND* 
+00000001000034bc      d  *UND* 
+00000001000034bc      d  *UND* _vo_strdup_num
+000000000000008c      d  *UND* 
+00000001000034bc      d  *UND* 
+0000000100003548      d  *UND* 
+0000000100003548      d  *UND* _vo_strdup
+000000000000003c      d  *UND* 
+0000000100003548      d  *UND* 
+0000000100003584      d  *UND* 
+0000000100003584      d  *UND* _vo_strcatnew
+00000000000000b4      d  *UND* 
+0000000100003584      d  *UND* 
+0000000100003638      d  *UND* 
+0000000100003638      d  *UND* _vo_fp_get_path
+0000000000000090      d  *UND* 
+0000000100003638      d  *UND* 
+00000001000036c8      d  *UND* 
+00000001000036c8      d  *UND* _vo_fp_get_filename
+00000000000000d8      d  *UND* 
+00000001000036c8      d  *UND* 
+00000001000037a0      d  *UND* 
+00000001000037a0      d  *UND* _vo_str_add_ext
+0000000000000128      d  *UND* 
+00000001000037a0      d  *UND* 
+00000001000038c8      d  *UND* 
+00000001000038c8      d  *UND* _vo_str_del_ext
+0000000000000098      d  *UND* 
+00000001000038c8      d  *UND* 
+0000000100003960      d  *UND* 
+0000000100003960      d  *UND* _vo_sputs
+0000000000000064      d  *UND* 
+0000000100003960      d  *UND* 
+00000001000039c4      d  *UND* 
+00000001000039c4      d  *UND* _vo_sputc
+000000000000002c      d  *UND* 
+00000001000039c4      d  *UND* 
+0000000100008000      d  *UND* _null_str
+0000000000000000      d  *UND* 
+0000000000000000      d  *UND* /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/
+0000000000000000      d  *UND* vo_string_ext.c
+00000000654d79c7      d  *UND* /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_string_ext.o
+00000001000039f0      d  *UND* 
+00000001000039f0      d  *UND* _vo_atoi
+000000000000017c      d  *UND* 
+00000001000039f0      d  *UND* 
+0000000100003b6c      d  *UND* 
+0000000100003b6c      d  *UND* _vo_atof
+0000000000000228      d  *UND* 
+0000000100003b6c      d  *UND* 
+0000000000000000      d  *UND* 
+0000000000000000      d  *UND* /Users/duddie/Projects/fun/prime_bench/lib/vo_lib/src/
+0000000000000000      d  *UND* vo_time.c
+00000000654d79c7      d  *UND* /Users/duddie/Projects/fun/prime_bench/build/lib/vo_lib/src/vo_time.o
+0000000100003d94      d  *UND* 
+0000000100003d94      d  *UND* _vo_time_get
+0000000000000078      d  *UND* 
+0000000100003d94      d  *UND* 
+0000000100003e0c      d  *UND* 
+0000000100003e0c      d  *UND* _vo_time_get_us
+0000000000000034      d  *UND* 
+0000000100003e0c      d  *UND* 
+0000000100003e40      d  *UND* 
+0000000100003e40      d  *UND* _vo_time_get_ms
+0000000000000034      d  *UND* 
+0000000100003e40      d  *UND* 
+0000000000000000      d  *UND* 
+0000000100000000 g     F __TEXT,__text __mh_execute_header
+0000000100008008 g     O __DATA,__common _a
+0000000100001ed8 g     F __TEXT,__text _decibels_to_gain
+0000000100001f4c g     F __TEXT,__text _gain_to_decibels
+0000000100002074 g     F __TEXT,__text _get_rms_level
+0000000100001c9c g     F __TEXT,__text _main
+0000000100001e60 g     F __TEXT,__text _note_to_freq
+0000000100002024 g     F __TEXT,__text _vo_adj_quadratic
+0000000100002050 g     F __TEXT,__text _vo_adj_square
+0000000100003b6c g     F __TEXT,__text _vo_atof
+00000001000039f0 g     F __TEXT,__text _vo_atoi
+0000000100002594 g     F __TEXT,__text _vo_cos
+0000000100002460 g     F __TEXT,__text _vo_expf
+0000000100002118 g     F __TEXT,__text _vo_float_to_fraction
+00000001000036c8 g     F __TEXT,__text _vo_fp_get_filename
+0000000100003638 g     F __TEXT,__text _vo_fp_get_path
+0000000100002b54 g     F __TEXT,__text _vo_free
+0000000100002ff4 g     F __TEXT,__text _vo_ftoa
+0000000100002b2c g     F __TEXT,__text _vo_get_malloc_size
+0000000100002e44 g     F __TEXT,__text _vo_itoa
+0000000100002d08 g     F __TEXT,__text _vo_itoh
+0000000100002500 g     F __TEXT,__text _vo_log2f
+0000000100002a70 g     F __TEXT,__text _vo_malloc
+000000010000294c g     F __TEXT,__text _vo_memcpy_32
+00000001000029d0 g     F __TEXT,__text _vo_memcpy_32_r
+000000010000242c g     F __TEXT,__text _vo_pow10f
+00000001000022d8 g     F __TEXT,__text _vo_pow2f
+00000001000023d8 g     F __TEXT,__text _vo_powf
+0000000100002acc g     F __TEXT,__text _vo_realloc
+0000000100002c00 g     F __TEXT,__text _vo_reverse
+000000010000261c g     F __TEXT,__text _vo_sin
+00000001000039c4 g     F __TEXT,__text _vo_sputc
+0000000100003960 g     F __TEXT,__text _vo_sputs
+00000001000037a0 g     F __TEXT,__text _vo_str_add_ext
+00000001000038c8 g     F __TEXT,__text _vo_str_del_ext
+0000000100003354 g     F __TEXT,__text _vo_str_has_ext
+0000000100003584 g     F __TEXT,__text _vo_strcatnew
+00000001000031b0 g     F __TEXT,__text _vo_strchr
+0000000100003410 g     F __TEXT,__text _vo_strcmp
+0000000100002bb0 g     F __TEXT,__text _vo_strcpy
+00000001000032c8 g     F __TEXT,__text _vo_strcpy_realloc
+0000000100003548 g     F __TEXT,__text _vo_strdup
+00000001000034bc g     F __TEXT,__text _vo_strdup_num
+0000000100003220 g     F __TEXT,__text _vo_strrchr
+000000010000269c g     F __TEXT,__text _vo_tanf
+0000000100002744 g     F __TEXT,__text _vo_tanh_c3
+0000000100003d94 g     F __TEXT,__text _vo_time_get
+0000000100003e40 g     F __TEXT,__text _vo_time_get_ms
+0000000100003e0c g     F __TEXT,__text _vo_time_get_us
+0000000000000000         *UND* _calloc
+0000000000000000         *UND* _free
+0000000000000000         *UND* _malloc
+0000000000000000         *UND* _printf
+0000000000000000         *UND* _timespec_get

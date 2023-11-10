@@ -1,0 +1,6 @@
+[submodule "lib/vo_lib"]
+	path = lib/vo_lib
+	url = git@github.com:1V-Oct/1voct_library.git
+[submodule "scripts"]
+	path = scripts
+	url = git@github.com:1V-Oct/1voct_scripts.git
